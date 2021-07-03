@@ -1,0 +1,46 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    display: flex;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.myname{
+    color: orange
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+a:hover{
+    background-image: linear-gradient(red,orange);
+}
+
+.half-width img{
+    width: 80%;
+}
