@@ -6,12 +6,12 @@ body{
 .entry{
     background-image: url(Photos/top-banner.png);
     background-repeat: no-repeat;
-    margin-bottom: 120px;
     padding-top: 80px;
 }
 
 section{
     display: flex;
+    margin-bottom: 120px;
 }
 
 .half-width{
