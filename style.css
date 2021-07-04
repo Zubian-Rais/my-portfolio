@@ -1,5 +1,13 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.entry{
+    background-image: url(Photos/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 120px;
+    padding-top: 80px;
 }
 
 section{
@@ -27,9 +35,10 @@ h2{
 p{
     font-size: 15px;
     font-weight: 400;
+    margin-bottom: 30px;
 }
 
-a{
+.button{
     text-decoration: none;
     color: #fff;
     background-image: linear-gradient(orange, red);
@@ -37,10 +46,21 @@ a{
     border-radius: 8px;
 }
 
-a:hover{
+.button:hover{
     background-image: linear-gradient(red,orange);
 }
 
 .half-width img{
     width: 80%;
+}
+
+.second{
+    background-image: url(Photos/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-widthtwo{
+    width: 50%;
+    margin-right: 100px;
 }
